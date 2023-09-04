@@ -1,0 +1,72 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(183, 199, 211);
+}
+
+.main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.intro-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: auto;
+}
+
+.description{
+  margin: auto;
+}
+
+.input-task{
+  margin: 20px;
+  width: 200px;
+}
+
+.input-label{
+  margin-left: 40px;
+}
+
+.form-floating{
+  margin: 20px;
+  width: 200px;
+}
+
+.list-group-item{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  width:350px;
+}
+
+.low{
+  background-color: rgba(184, 255, 178, 0.529);
+}
+
+.mid{
+  background-color: rgba(251, 222, 153, 0.529);
+}
+
+.high{
+  background-color: rgba(255, 176, 176, 0.501);
+}
+
+.btn-outline-primary, .btn-outline-secondary{
+  margin-bottom: 20px;
+}
+
+.htmlForm-check-input:checked + label{
+  text-decoration: line-through;
+  color: grey;
+}
+
